@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Variáveis de ambiente
+.env
+
+# Banco local
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos temporários
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dados gerados pela aplicação
+backend/data/uploads/*
+backend/data/processed/*
+backend/data/models/*
+backend/data/logs/*
+
+# Manter as pastas no Git
+!backend/data/uploads/.gitkeep
+!backend/data/processed/.gitkeep
+!backend/data/models/.gitkeep
+!backend/data/logs/.gitkeep
